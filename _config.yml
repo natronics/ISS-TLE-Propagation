@@ -1,0 +1,6 @@
+exclude:
+ - README.markdown
+ - Makefile
+ - nb-markdown.tpl
+markdown: kramdown
+highlight: rouge
