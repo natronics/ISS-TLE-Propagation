@@ -3,5 +3,8 @@ exclude:
  - Makefile
  - LICENSE
  - nb-markdown.tpl
+ - matplotlibrc
+ - data
+ - "*.ipynb"
 markdown: kramdown
 highlight: rouge
