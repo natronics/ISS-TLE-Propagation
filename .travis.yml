@@ -1,10 +1,17 @@
-language: python
 branches:
   only:
     - gh-pages
+git:
+  depth: 1
+language: python
 python:
     - 2.7
+addons:
+  apt:
+    packages:
+      - jekyll
 install:
     - pip install nbconvert
 script:
+    - rm index.md
     - make
