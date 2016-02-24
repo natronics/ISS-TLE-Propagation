@@ -6,12 +6,9 @@ git:
 language: python
 python:
     - 2.7
-addons:
-  apt:
-    packages:
-      - jekyll
 install:
-    - pip install nbconvert
+  - gem install jekyll
+  - pip install -r requirements.txt
 script:
-    - rm index.md
-    - make
+  - rm index.md
+  - make
