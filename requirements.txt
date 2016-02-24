@@ -1,4 +1,4 @@
-jupiter
+jupyter
 numpy
 scipy
 matplotlib
