@@ -1,5 +1,4 @@
 jupyter
 numpy
-scipy
 matplotlib
 sgp4
