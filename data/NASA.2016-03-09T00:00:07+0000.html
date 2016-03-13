@@ -1,0 +1,1402 @@
+    <HTML><HEAD><TITLE>Human Space Flight (HSF) - Realtime Data
+    </TITLE>
+         
+    
+    <LINK REL="stylesheet" HREF="/hsf_home_style.css" TYPE="text/css"><LINK REL="stylesheet" HREF="/realdata/tracking/clocks.css" TYPE="text/css"><!--
+    ////    *_OVER.JS PROVIDES HTML FOR GRAPHICS    ////
+    --><SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+    
+      var firstLevel = '<'+'script language="javascript" src="/!_js_files/hsf_realdata_over.js"></'+'script>';
+    
+    </SCRIPT>
+    
+    <!--
+    ////    *_NAV.JS PROVIDES MOUSEOVERS    ////
+    -->
+    
+    <SCRIPT TYPE="text/javascript" SRC="/!_js_files/hsf_realdata_nav.js" LANGUAGE="javascript"></SCRIPT>
+    
+      
+    <SCRIPT LANGUAGE="javascript">
+    <!---
+    
+    function buildArray(){
+    var a = buildArray.arguments;
+    for (i=0; i<a.length; i++){
+    this[i] = a[i];
+    }
+    
+    this.length = a.length;
+    } 
+    
+    var urls1 = new buildArray("",
+    "ksclive/index.html",
+    "ksclive/kscv01.html",
+    "ksclive/kscv02.html",
+    "ksclive/kscv03.html",
+    "ksclive/kscv04.html",
+    "ksclive/kscv05.html",
+    "ksclive/kscv06.html",
+    "ksclive/kscv07.html",
+    "ksclive/kscv08.html",
+    "ksclive/kscv09.html",
+    "ksclive/kscv10.html",
+    "ksclive/kscv11.html",
+    "ksclive/kscv12.html",
+    "ksclive/kscv13.html",
+    "ksclive/kscv14.html",
+    "ksclive/kscv15.html"); 
+    
+    function go(which, num, win){
+    n = which.selectedIndex;
+    
+    if (n != 0){
+    var url = eval("urls" + num + "[n]")
+    
+    if (win){
+    openWindow(url); 
+    }
+    
+    else{ 
+    location.href = url;
+    }
+    }
+    }
+    
+    //-->
+    </SCRIPT></HEAD><BODY ALINK="#ff0000" VLINK="#800000" LINK="#cc0000" TEXT="#000000" BGCOLOR="#ffffff" > 
+    
+    
+         
+    
+    <!-- 
+    ////    BEGIN --    ////
+    ////    IMAGE MAP FOR 2ND LEVEL MENUS    ////
+    -->
+    
+      <MAP NAME="level2menu"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="0,-1,67,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="67,-1,134,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="134,-1,201,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="201,-1,268,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="268,-1,335,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="335,-1,402,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="402,-1,469,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="469,-1,536,26" SHAPE="RECT"><AREA ONMOUSEOUT="timeoutId = setTimeout('menuLinks(0)',1);" ONMOUSEOVER="clearTimeout (timeoutId);" HREF="" ALT="" COORDS="536,-1,600,26" SHAPE="RECT"></MAP>
+    
+    <!-- 
+    ////    END --    ////
+    ////    IMAGE MAP FOR 2ND LEVEL MENUS    ////
+    -->
+    
+    <TABLE ALIGN="CENTER" BORDER="0" WIDTH="600" CELLPADDING="0" CELLSPACING="0"><TR><TD><IMG USEMAP="#Map" BORDER="0" WIDTH="600" HEIGHT="55" SRC="/graphics/new_home/hsf_hdr_main2.gif"><MAP NAME="Map"><AREA TITLE="Return to Human Space Flight home page" HREF="/index.html" ALT="Return to Human Space Flight home page" COORDS="424,26,587,46" SHAPE="RECT"></MAP></TD></TR><!-- 
+    ////    BEGIN -- 1ST LEVEL MENU OPTIONS    ////
+    ////    REFERENCES *_OVER.JS WHICH PROVIDES HTML FOR GRAPHICS    ////
+    ////    THE VARIABLE firstLevel IS CALLED INSIDE THE HEAD TAG    ////
+    --><TR><TD WIDTH="600" VALIGN="TOP" COLSPAN="3"> 
+          <SCRIPT LANGUAGE="javascript">
+            <!-- 
+              document.write(firstLevel)
+            //-->
+          </SCRIPT></TD></TR><!-- 
+    ////    END -- 1ST LEVEL MENU OPTIONS    ////
+    --><!-- 
+    ////    BEGIN -- 2ND LEVEL MENU OPTIONS    ////
+    ////    THIS SECTION CALLS THE MENULINKS FUNCTION    ////
+    --><TR><TD WIDTH="600" VALIGN="TOP" COLSPAN="3"><IMG NAME="low1" ALT="" USEMAP="#level2menu" BORDER="0" WIDTH="600" HEIGHT="24" SRC="/graphics/new_home/hsf_l2.gif"></TD></TR><!-- 
+    ////    END -- 2ND LEVEL MENU OPTIONS    ////
+    --><TR><TD><IMG WIDTH="600" HEIGHT="5" SRC="/graphics/new_home/hsf_hdr_btm.gif"></TD></TR></TABLE><BR><A NAME="skipLinks"></A>
+    
+    
+    <!--Begin Main Content Area Here-->
+    
+        
+    <table width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+        
+          <tr>
+        
+            <td>
+        
+            <PRE>
+    
+  <B> ISS  TRAJECTORY DATA</B>
+ 
+   Lift off time (UTC)  :  N/A
+   Area (sq ft)  :  10.7639
+   Drag Coefficient (Cd)  :   2.00
+   Monthly MSFC 50% solar flux (F10.7-jansky)  :   104.7
+   Monthly MSFC 50% earth geomagnetic index (Kp)  :   3.055
+   ET - UTC  (sec) :   67.18
+   UT1 - UTC (sec) :    0.00
+ 
+ 
+   Maneuvers contained within the current ephemeris are as follows:
+ 
+ 
+   IMPULSIVE TIG (GMT)   M50 DVx(FPS)      LVLH DVx(FPS)      DVmag(FPS) 
+   IMPULSIVE TIG (MET)   M50 DVy(FPS)      LVLH DVy(FPS)      Invar Sph HA
+   DT                    M50 DVz(FPS)      LVLH DVz(FPS)      Invar Sph HP 
+   ------------------------------------------------------------------------
+   070/23:10:00.000           0.0               0.0              0.0    
+   N/A                        0.0               0.0              220.5  
+   000/00:00:00.000           0.0               0.0              215.4  
+   
+   077/03:58:30.000           0.0               0.0              0.0    
+   N/A                        0.0               0.0              220.3  
+   000/00:00:00.000           0.0               0.0              215.1  
+   
+   078/21:26:42.000           0.0               0.0              0.0    
+   N/A                        0.0               0.0              220.5  
+   000/00:00:00.000           0.0               0.0              214.9  
+   
+   079/03:12:07.000           0.0               0.0              0.0    
+   N/A                        0.0               0.0              220.4  
+   000/00:00:00.000           0.0               0.0              214.9  
+   
+   080/10:25:00.000           0.0               0.0              0.0    
+   N/A                        0.0               0.0              220.5  
+   000/00:00:00.000           0.0               0.0              214.8  
+   
+ 
+ 
+    Coasting Arc #1 (Orbit 2916)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/067/12:00:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -5539955.53                 A    =         6789101.09  meter
+     Y    =       -3666047.15  meter          E    =           .0012037
+     Z    =        1371564.45                 I    =           51.50325
+     XDOT =       3693.559533                 Wp   =           59.08784
+     YDOT =      -3400.834051  meter/sec      RA   =          204.04314  deg
+     ZDOT =       5797.019687                 TA   =          315.88459
+                                              MA   =          315.98055
+                                              Ha   =            220.709  n.mi
+                                              Hp   =            215.579
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -18175707.11                 X    =        -5505211.49
+     Y    =      -12027713.74  feet           Y    =        -3727804.16  meter
+     Z    =        4499883.36                 Z    =         1344738.09
+     XDOT =      12117.977471                 XDOT =        3703.155061
+     YDOT =     -11157.592032  feet/sec       YDOT =       -3359.475793  meter/sec
+     ZDOT =      19019.093462                 ZDOT =        5814.985513
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -14410688.03                 X    =        -4392377.71
+     Y    =      -16382403.95  feet           Y    =        -4993356.72  meter
+     Z    =        4384072.13                 Z    =         1336265.18
+     XDOT =      13307.719415                 XDOT =        4056.192878
+     YDOT =      -6566.770593  feet/sec       YDOT =       -2001.551677  meter/sec
+     ZDOT =      19097.569086                 ZDOT =        5820.939057
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16067.56171306  .00016717  00000-0  10270-3 0  9006
+    2 25544  51.6413 204.8357 0001784 247.6331 112.4633 15.53947653 29174
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16067.56171306   =   yrday.fracday
+    Element set:     900
+    Inclination:       51.6413  deg
+    RA of node:       204.8357  deg
+    Eccentricity:     .0001784     
+    Arg of perigee:   247.6331  deg
+    Mean anomaly:     112.4633  deg
+    Mean motion:   15.53947653  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            2917
+    Checksum:              304
+ 
+ 
+    Coasting Arc #2 (Orbit 2931)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/068/12:00:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        4625752.56                 A    =         6786344.94  meter
+     Y    =        4033016.62  meter          E    =           .0003547
+     Z    =       -2895456.65                 I    =           51.52333
+     XDOT =      -5252.445123                 Wp   =          137.17837
+     YDOT =       2416.302930  meter/sec      RA   =          199.06113  deg
+     ZDOT =      -5031.817853                 TA   =           75.84950
+                                              MA   =           75.81009
+                                              Ha   =            220.685  n.mi
+                                              Hp   =            215.603
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       15176353.55                 X    =         4594375.25
+     Y    =       13231681.82  feet           Y    =         4084568.98  meter
+     Z    =       -9499529.70                 Z    =        -2873063.07
+     XDOT =     -17232.431506                 XDOT =       -5254.632414
+     YDOT =       7927.503050  feet/sec       YDOT =        2357.553608  meter/sec
+     ZDOT =     -16508.588758                 ZDOT =       -5057.338204
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       11518422.05                 X    =         3510815.04
+     Y    =       16569546.09  feet           Y    =         5050397.65  meter
+     Z    =       -9402992.68                 Z    =        -2866032.17
+     XDOT =     -17340.322689                 XDOT =       -5285.330356
+     YDOT =       2634.403358  feet/sec       YDOT =         802.966144  meter/sec
+     ZDOT =     -16619.691936                 ZDOT =       -5065.682102
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16068.52636125  .00016717  00000-0  10270-3 0  9019
+    2 25544  51.6409 200.0289 0001764 254.3350 105.7608 15.53956748 29324
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16068.52636125   =   yrday.fracday
+    Element set:     901
+    Inclination:       51.6409  deg
+    RA of node:       200.0289  deg
+    Eccentricity:     .0001764     
+    Arg of perigee:   254.3350  deg
+    Mean anomaly:     105.7608  deg
+    Mean motion:   15.53956748  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            2932
+    Checksum:              307
+ 
+ 
+    Coasting Arc #3 (Orbit 2947)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/069/12:00:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -3350120.14                 A    =         6782540.62  meter
+     Y    =       -4213725.41  meter          E    =           .0008859
+     Z    =        4120726.99                 I    =           51.54300
+     XDOT =       6508.752796                 Wp   =          108.54505
+     YDOT =      -1465.995122  meter/sec      RA   =          194.07195  deg
+     ZDOT =       3783.050175                 TA   =          302.37064
+                                              MA   =          302.45635
+                                              Ha   =            220.574  n.mi
+                                              Hp   =            215.538
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -10991207.80                 X    =        -3322768.73
+     Y    =      -13824558.45  feet           Y    =        -4251035.09  meter
+     Z    =       13519445.51                 Z    =         4104520.24
+     XDOT =      21354.175841                 XDOT =        6506.285944
+     YDOT =      -4809.695283  feet/sec       YDOT =       -1393.223104  meter/sec
+     ZDOT =      12411.581940                 ZDOT =        3814.661963
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       -7617361.71                 X    =        -2321771.85
+     Y    =      -15993122.13  feet           Y    =        -4874703.63  meter
+     Z    =       13449770.16                 Z    =         4099489.94
+     XDOT =      20643.572125                 XDOT =        6292.160784
+     YDOT =        747.188138  feet/sec       YDOT =         227.742944  meter/sec
+     ZDOT =      12548.977442                 ZDOT =        3824.928324
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16069.55529832  .00016717  00000-0  10270-3 0  9020
+    2 25544  51.6422 194.9011 0001880 259.5654 100.5286 15.54011433 29482
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16069.55529832   =   yrday.fracday
+    Element set:     902
+    Inclination:       51.6422  deg
+    RA of node:       194.9011  deg
+    Eccentricity:     .0001880     
+    Arg of perigee:   259.5654  deg
+    Mean anomaly:     100.5286  deg
+    Mean motion:   15.54011433  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            2948
+    Checksum:              306
+ 
+ 
+    Coasting Arc #4 (Orbit 2962)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/070/12:00:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        1767793.97                 A    =         6779296.78  meter
+     Y    =        4273803.95  meter          E    =           .0010658
+     Z    =       -4966511.88                 I    =           51.56431
+     XDOT =      -7334.389203                 Wp   =           72.22060
+     YDOT =        547.990856  meter/sec      RA   =          189.07570  deg
+     ZDOT =      -2139.669145                 TA   =          176.89022
+                                              MA   =          176.88359
+                                              Ha   =            220.538  n.mi
+                                              Hp   =            215.549
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        5799848.97                 X    =         1743996.88
+     Y    =       14021666.51  feet           Y    =         4293438.74  meter
+     Z    =      -16294330.30                 Z    =        -4957982.92
+     XDOT =     -24062.956702                 XDOT =       -7329.578337
+     YDOT =       1797.870262  feet/sec       YDOT =         465.999394  meter/sec
+     ZDOT =      -7019.911892                 ZDOT =       -2175.285952
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        2794014.99                 X    =          851615.77
+     Y    =       14954006.86  feet           Y    =         4557981.29  meter
+     Z    =      -16257974.62                 Z    =        -4955430.66
+     XDOT =     -22761.100056                 XDOT =       -6937.583297
+     YDOT =      -3545.305449  feet/sec       YDOT =       -1080.609101  meter/sec
+     ZDOT =      -7174.556810                 ZDOT =       -2186.804916
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16070.51991172  .00016717  00000-0  10270-3 0  9039
+    2 25544  51.6431 190.0945 0001789 267.3863  92.7084 15.54005152 29638
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16070.51991172   =   yrday.fracday
+    Element set:     903
+    Inclination:       51.6431  deg
+    RA of node:       190.0945  deg
+    Eccentricity:     .0001789     
+    Arg of perigee:   267.3863  deg
+    Mean anomaly:      92.7084  deg
+    Mean motion:   15.54005152  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            2963
+    Checksum:              311
+ 
+ 
+    Coasting Arc #5 (Orbit 2969)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/070/23:10:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -6260992.01                 A    =         6787258.98  meter
+     Y    =        1140345.29  meter          E    =           .0005022
+     Z    =       -2353665.20                 I    =           51.60377
+     XDOT =      -2866.913590                 Wp   =           28.45279
+     YDOT =      -4637.622773  meter/sec      RA   =          186.72079  deg
+     ZDOT =       5388.426373                 TA   =          305.27758
+                                              MA   =          305.32456
+                                              Ha   =            220.540  n.mi
+                                              Hp   =            215.431
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -20541312.38                 X    =        -6261845.26
+     Y    =        3741290.34  feet           Y    =         1070325.58  meter
+     Z    =       -7721998.70                 Z    =        -2384081.66
+     XDOT =      -9405.884483                 XDOT =       -2841.016019
+     YDOT =     -15215.297811  feet/sec       YDOT =       -4669.536851  meter/sec
+     ZDOT =      17678.564216                 ZDOT =        5374.563319
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       20215460.31                 X    =         6161672.30
+     Y    =        5021869.17  feet           Y    =         1530665.72  meter
+     Z    =       -7854172.55                 Z    =        -2393951.79
+     XDOT =       2782.676978                 XDOT =         848.159943
+     YDOT =      16308.864031  feet/sec       YDOT =        4970.941757  meter/sec
+     ZDOT =      17619.114127                 ZDOT =        5370.305986
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16070.97005904  .00016717  00000-0  10270-3 0  9049
+    2 25544  51.6410 187.8544 0001803 289.1263  70.9694 15.54003707 29704
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16070.97005904   =   yrday.fracday
+    Element set:     904
+    Inclination:       51.6410  deg
+    RA of node:       187.8544  deg
+    Eccentricity:     .0001803     
+    Arg of perigee:   289.1263  deg
+    Mean anomaly:      70.9694  deg
+    Mean motion:   15.54003707  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            2970
+    Checksum:              307
+ 
+ 
+    Coasting Arc #6 (Orbit 2985)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/071/23:10:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        6734007.26                 A    =         6789332.15  meter
+     Y    =        -371805.55  meter          E    =           .0011581
+     Z    =         729198.24                 I    =           51.64296
+     XDOT =        912.953629                 Wp   =          129.19825
+     YDOT =       4743.530970  meter/sec      RA   =          181.74818  deg
+     ZDOT =      -5956.090389                 TA   =           42.92267
+                                              MA   =           42.83235
+                                              Ha   =            220.561  n.mi
+                                              Hp   =            215.367
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       22093199.68                 X    =         6734122.27
+     Y    =       -1219834.48  feet           Y    =         -296500.66  meter
+     Z    =        2392382.67                 Z    =          761910.66
+     XDOT =       2995.254689                 XDOT =         888.774534
+     YDOT =      15562.765650  feet/sec       YDOT =        4753.604174  meter/sec
+     ZDOT =     -19540.978967                 ZDOT =       -5951.714904
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -20757904.50                 X    =        -6327009.29
+     Y    =       -7616239.35  feet           Y    =        -2321429.75  meter
+     Z    =        2534415.59                 Z    =          772489.87
+     XDOT =       2736.278477                 XDOT =         834.017680
+     YDOT =     -14012.079366  feet/sec       YDOT =       -4270.881791  meter/sec
+     ZDOT =     -19522.717859                 ZDOT =       -5950.524403
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16071.99895408  .00016717  00000-0  10270-3 0  9059
+    2 25544  51.6411 182.7265 0001783 293.6562  66.4403 15.54040871 29866
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16071.99895408   =   yrday.fracday
+    Element set:     905
+    Inclination:       51.6411  deg
+    RA of node:       182.7265  deg
+    Eccentricity:     .0001783     
+    Arg of perigee:   293.6562  deg
+    Mean anomaly:      66.4403  deg
+    Mean motion:   15.54040871  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            2986
+    Checksum:              329
+ 
+ 
+    Coasting Arc #7 (Orbit 3001)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/072/23:10:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -6704612.01                 A    =         6789116.82  meter
+     Y    =        -376387.26  meter          E    =           .0012678
+     Z    =         951775.37                 I    =           51.67432
+     XDOT =       1112.877079                 Wp   =           47.79302
+     YDOT =      -4749.073052  meter/sec      RA   =          176.78027  deg
+     ZDOT =       5919.276025                 TA   =          322.51162
+                                              MA   =          322.59997
+                                              Ha   =            220.496  n.mi
+                                              Hp   =            215.379
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -21996758.57                 X    =        -6704528.17
+     Y    =       -1234866.34  feet           Y    =         -451362.10  meter
+     Z    =        3122622.61                 Z    =          919206.29
+     XDOT =       3651.171518                 XDOT =        1137.146380
+     YDOT =     -15580.948333  feet/sec       YDOT =       -4736.491685  meter/sec
+     ZDOT =      19420.196931                 ZDOT =        5924.741642
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       19897168.47                 X    =         6064656.95
+     Y    =        9505131.28  feet           Y    =         2897164.01  meter
+     Z    =        2981311.95                 Z    =          908703.88
+     XDOT =      -8486.729323                 XDOT =       -2586.755098
+     YDOT =      11621.060083  feet/sec       YDOT =        3542.099113  meter/sec
+     ZDOT =      19444.653416                 ZDOT =        5926.730361
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16073.02782765  .00016717  00000-0  10270-3 0  9067
+    2 25544  51.6409 177.5986 0001874 296.6311  63.4649 15.54082352 30020
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16073.02782765   =   yrday.fracday
+    Element set:     906
+    Inclination:       51.6409  deg
+    RA of node:       177.5986  deg
+    Eccentricity:     .0001874     
+    Arg of perigee:   296.6311  deg
+    Mean anomaly:      63.4649  deg
+    Mean motion:   15.54082352  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3002
+    Checksum:              321
+ 
+ 
+    Coasting Arc #8 (Orbit 3016)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/073/23:10:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        6169795.38                 A    =         6786628.44  meter
+     Y    =        1165911.13  meter          E    =           .0003319
+     Z    =       -2574021.36                 I    =           51.69902
+     XDOT =      -3072.050015                 Wp   =          132.15140
+     YDOT =       4644.294476  meter/sec      RA   =          171.81033  deg
+     ZDOT =      -5266.423788                 TA   =           76.75225
+                                              MA   =           76.71523
+                                              Ha   =            220.526  n.mi
+                                              Hp   =            215.300
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       20242110.84                 X    =         6168802.80
+     Y    =        3825167.75  feet           Y    =         1234900.06  meter
+     Z    =       -8444951.98                 Z    =        -2544052.60
+     XDOT =     -10078.904248                 XDOT =       -3098.173344
+     YDOT =      15237.186602  feet/sec       YDOT =        4609.794145  meter/sec
+     ZDOT =     -17278.293267                 ZDOT =       -5281.410972
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -17512858.06                 X    =        -5337919.14
+     Y    =      -10947701.46  feet           Y    =        -3336859.40  meter
+     Z    =       -8315035.11                 Z    =        -2534422.70
+     XDOT =      14030.054810                 XDOT =        4276.360706
+     YDOT =      -9286.938515  feet/sec       YDOT =       -2830.658859  meter/sec
+     ZDOT =     -17344.073837                 ZDOT =       -5286.473706
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16073.99237680  .00016717  00000-0  10270-3 0  9075
+    2 25544  51.6417 172.7905 0001923 306.2933  53.8042 15.54120028 30179
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16073.99237680   =   yrday.fracday
+    Element set:     907
+    Inclination:       51.6417  deg
+    RA of node:       172.7905  deg
+    Eccentricity:     .0001923     
+    Arg of perigee:   306.2933  deg
+    Mean anomaly:      53.8042  deg
+    Mean motion:   15.54120028  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3017
+    Checksum:              298
+ 
+ 
+    Coasting Arc #9 (Orbit 3032)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/074/23:10:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -5174557.76                 A    =         6782901.20  meter
+     Y    =       -1962160.81  meter          E    =           .0009682
+     Z    =        3914044.50                 I    =           51.71760
+     XDOT =       4765.434760                 Wp   =           93.38709
+     YDOT =      -4418.433072  meter/sec      RA   =          166.83443  deg
+     ZDOT =       4075.869239                 TA   =          313.97222
+                                              MA   =          314.05203
+                                              Ha   =            220.627  n.mi
+                                              Hp   =            215.183
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -16976895.54                 X    =        -5171244.50
+     Y    =       -6437535.48  feet           Y    =        -2020007.26  meter
+     Z    =       12841353.34                 Z    =         3888916.10
+     XDOT =      15634.628479                 XDOT =        4794.689839
+     YDOT =     -14496.171496  feet/sec       YDOT =       -4364.978853  meter/sec
+     ZDOT =      13372.274405                 ZDOT =        4099.089933
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       13755312.75                 X    =         4192619.33
+     Y    =       11967894.59  feet           Y    =         3647814.27  meter
+     Z    =       12732559.49                 Z    =         3880884.13
+     XDOT =     -18746.408622                 XDOT =       -5713.905348
+     YDOT =       7178.981061  feet/sec       YDOT =        2188.153427  meter/sec
+     ZDOT =      13473.778737                 ZDOT =        4106.807759
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16075.02120951  .00016717  00000-0  10270-3 0  9084
+    2 25544  51.6410 167.6624 0001886 310.4590  49.6398 15.54141191 30336
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16075.02120951   =   yrday.fracday
+    Element set:     908
+    Inclination:       51.6410  deg
+    RA of node:       167.6624  deg
+    Eccentricity:     .0001886     
+    Arg of perigee:   310.4590  deg
+    Mean anomaly:      49.6398  deg
+    Mean motion:   15.54141191  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3033
+    Checksum:              294
+ 
+ 
+    Coasting Arc #10 (Orbit 3047)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/075/23:10:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        3809906.53                 A    =         6779206.99  meter
+     Y    =        2794491.37  meter          E    =           .0010956
+     Z    =       -4871727.75                 I    =           51.73756
+     XDOT =      -6055.733224                 Wp   =           63.53636
+     YDOT =       4007.525645  meter/sec      RA   =          161.84960  deg
+     ZDOT =      -2436.555301                 TA   =          182.56115
+                                              MA   =          182.56676
+                                              Ha   =            220.489  n.mi
+                                              Hp   =            215.156
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       12499693.34                 X    =         3802039.29
+     Y    =        9168278.78  feet           Y    =         2837051.85  meter
+     Z    =      -15983358.74                 Z    =        -4853239.65
+     XDOT =     -19867.891154                 XDOT =       -6088.260631
+     YDOT =      13148.050015  feet/sec       YDOT =        3939.624319  meter/sec
+     ZDOT =      -7993.947839                 ZDOT =       -2466.051728
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       -8848941.55                 X    =        -2697157.39
+     Y    =      -12827387.14  feet           Y    =        -3909787.60  meter
+     Z    =      -15903515.30                 Z    =        -4847391.46
+     XDOT =      22119.383649                 XDOT =        6741.988136
+     YDOT =      -5186.320680  feet/sec       YDOT =       -1580.790543  meter/sec
+     ZDOT =      -8122.654951                 ZDOT =       -2475.785229
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16075.98572171  .00016717  00000-0  10270-3 0  9095
+    2 25544  51.6418 162.8544 0001959 315.8342  44.2654 15.54190011 30484
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16075.98572171   =   yrday.fracday
+    Element set:     909
+    Inclination:       51.6418  deg
+    RA of node:       162.8544  deg
+    Eccentricity:     .0001959     
+    Arg of perigee:   315.8342  deg
+    Mean anomaly:      44.2654  deg
+    Mean motion:   15.54190011  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3048
+    Checksum:              313
+ 
+ 
+    Coasting Arc #11 (Orbit 3063)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/076/23:10:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -2198240.51                 A    =         6777135.61  meter
+     Y    =       -3603355.00  meter          E    =           .0001229
+     Z    =        5301135.53                 I    =           51.76167
+     XDOT =       6858.036225                 Wp   =           74.33417
+     YDOT =      -3392.248959  meter/sec      RA   =          156.85904  deg
+     ZDOT =        538.244009                 TA   =           10.54124
+                                              MA   =           10.53867
+                                              Ha   =            220.461  n.mi
+                                              Hp   =            215.006
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       -7212075.15                 X    =        -2183533.92
+     Y    =      -11822030.85  feet           Y    =        -3627854.45  meter
+     Z    =       17392176.95                 Z    =         5290493.20
+     XDOT =      22500.118848                 XDOT =        6892.844959
+     YDOT =     -11129.425720  feet/sec       YDOT =       -3315.363163  meter/sec
+     ZDOT =       1765.892417                 ZDOT =         571.643195
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        3222335.38                 X    =          982167.83
+     Y    =       13526896.48  feet           Y    =         4122998.05  meter
+     Z    =       17346523.77                 Z    =         5287220.44
+     XDOT =     -23864.087443                 XDOT =       -7273.773853
+     YDOT =       3234.540842  feet/sec       YDOT =         985.888049  meter/sec
+     ZDOT =       1911.470806                 ZDOT =         582.616302
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16077.01451265  .00016717  00000-0  10270-3 0  9103
+    2 25544  51.6421 157.7258 0002081 316.1762  43.9225 15.54239186 30645
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16077.01451265   =   yrday.fracday
+    Element set:     910
+    Inclination:       51.6421  deg
+    RA of node:       157.7258  deg
+    Eccentricity:     .0002081     
+    Arg of perigee:   316.1762  deg
+    Mean anomaly:      43.9225  deg
+    Mean motion:   15.54239186  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3064
+    Checksum:              292
+ 
+ 
+    Coasting Arc #12 (Orbit 3066)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/077/03:58:30.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        2315684.22                 A    =         6781220.30  meter
+     Y    =       -4726472.62  meter          E    =           .0009036
+     Z    =        4271930.44                 I    =           51.78033
+     XDOT =       6775.067689                 Wp   =           60.48609
+     YDOT =         61.803887  meter/sec      RA   =          155.83105  deg
+     ZDOT =      -3594.122206                 TA   =           66.17917
+                                              MA   =           66.08447
+                                              Ha   =            220.323  n.mi
+                                              Hp   =            215.055
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        7597389.19                 X    =         2347613.71
+     Y    =      -15506799.94  feet           Y    =        -4700398.16  meter
+     Z    =       14015519.82                 Z    =         4283257.36
+     XDOT =      22227.912364                 XDOT =        6791.331577
+     YDOT =        202.768657  feet/sec       YDOT =         137.657781  meter/sec
+     ZDOT =     -11791.739520                 ZDOT =       -3561.171448
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        8115768.91                 X    =         2473686.36
+     Y    =       15195831.40  feet           Y    =         4631689.41  meter
+     Z    =       14065452.91                 Z    =         4287150.05
+     XDOT =     -12183.352576                 XDOT =       -3713.485865
+     YDOT =      17319.434483  feet/sec       YDOT =        5278.963630  meter/sec
+     ZDOT =     -11648.646099                 ZDOT =       -3550.507331
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16077.20740719  .00016717  00000-0  10270-3 0  9110
+    2 25544  51.6411 156.7621 0002252 315.4191  44.6780 15.54235187 30679
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16077.20740719   =   yrday.fracday
+    Element set:     911
+    Inclination:       51.6411  deg
+    RA of node:       156.7621  deg
+    Eccentricity:     .0002252     
+    Arg of perigee:   315.4191  deg
+    Mean anomaly:      44.6780  deg
+    Mean motion:   15.54235187  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3067
+    Checksum:              293
+ 
+ 
+    Coasting Arc #13 (Orbit 3081)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/078/03:58:30.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -3719666.82                 A    =         6785075.35  meter
+     Y    =        4799244.07  meter          E    =           .0004210
+     Z    =       -3026896.12                 I    =           51.82024
+     XDOT =      -5697.720871                 Wp   =           45.81534
+     YDOT =      -1290.767940  meter/sec      RA   =          150.85651  deg
+     ZDOT =       4962.342841                 TA   =          279.60463
+                                              MA   =          279.65219
+                                              Ha   =            220.436  n.mi
+                                              Hp   =            214.922
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -12203631.31                 X    =        -3758353.52
+     Y    =       15745551.40  feet           Y    =         4757431.64  meter
+     Z    =       -9930761.53                 Z    =        -3045059.60
+     XDOT =     -18693.309945                 XDOT =       -5706.968364
+     YDOT =      -4234.802954  feet/sec       YDOT =       -1354.534805  meter/sec
+     ZDOT =      16280.652366                 ZDOT =        4934.642746
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       -5909698.31                 X    =        -1801276.04
+     Y    =      -18982576.94  feet           Y    =        -5785889.45  meter
+     Z    =      -10010408.05                 Z    =        -3051172.37
+     XDOT =      12882.179245                 XDOT =        3926.488234
+     YDOT =     -12520.485606  feet/sec       YDOT =       -3816.244013  meter/sec
+     ZDOT =      16160.540996                 ZDOT =        4925.732896
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16078.17188070  .00016717  00000-0  10270-3 0  9124
+    2 25544  51.6393 151.9532 0002032 320.3264  39.7740 15.54232982 30826
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16078.17188070   =   yrday.fracday
+    Element set:     912
+    Inclination:       51.6393  deg
+    RA of node:       151.9532  deg
+    Eccentricity:     .0002032     
+    Arg of perigee:   320.3264  deg
+    Mean anomaly:      39.7740  deg
+    Mean motion:   15.54232982  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3082
+    Checksum:              294
+ 
+ 
+    Coasting Arc #14 (Orbit 3093)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/078/21:26:42.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 890089.9
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -3122709.25                 A    =         6777201.34  meter
+     Y    =       -2911946.21  meter          E    =           .0001764
+     Z    =        5261554.90                 I    =           51.81657
+     XDOT =       5976.250530                 Wp   =           94.62314
+     YDOT =      -4716.230925  meter/sec      RA   =          147.27149  deg
+     ZDOT =        936.326342                 TA   =          346.44039
+                                              MA   =          346.44513
+                                              Ha   =            220.517  n.mi
+                                              Hp   =            214.860
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -10245109.10                 X    =        -3115473.12
+     Y    =       -9553629.28  feet           Y    =        -2946825.33  meter
+     Z    =       17262319.21                 Z    =         5246403.67
+     XDOT =      19607.121161                 XDOT =        6023.996215
+     YDOT =     -15473.198573  feet/sec       YDOT =       -4649.133446  meter/sec
+     ZDOT =       3071.936818                 ZDOT =         965.473643
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        1229159.28                 X    =          374647.75
+     Y    =       14034791.05  feet           Y    =         4277804.31  meter
+     Z    =       17196963.84                 Z    =         5241634.58
+     XDOT =     -23876.954753                 XDOT =       -7277.695809
+     YDOT =      -1830.637796  feet/sec       YDOT =        -557.978400  meter/sec
+     ZDOT =       3199.289223                 ZDOT =         975.143355
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16078.94344902  .00016717  00000-0  10270-3 0  9138
+    2 25544  51.6415 148.1093 0002157 324.3457  35.7551 15.54286173 30947
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16078.94344902   =   yrday.fracday
+    Element set:     913
+    Inclination:       51.6415  deg
+    RA of node:       148.1093  deg
+    Eccentricity:     .0002157     
+    Arg of perigee:   324.3457  deg
+    Mean anomaly:      35.7551  deg
+    Mean motion:   15.54286173  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3094
+    Checksum:              309
+ 
+ 
+    Coasting Arc #15 (Orbit 3096)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/079/03:12:07.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 905198.2
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -4767020.46                 A    =         6788006.02  meter
+     Y    =        4597456.80  meter          E    =           .0009102
+     Z    =       -1467086.73                 I    =           51.85770
+     XDOT =      -4288.777296                 Wp   =           24.74793
+     YDOT =      -2603.030647  meter/sec      RA   =          146.05545  deg
+     ZDOT =       5799.401590                 TA   =          319.29030
+                                              MA   =          319.35829
+                                              Ha   =            220.418  n.mi
+                                              Hp   =            214.918
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -15639830.91                 X    =        -4810949.68
+     Y    =       15083519.70  feet           Y    =         4543903.01  meter
+     Z    =       -4813276.67                 Z    =        -1490350.70
+     XDOT =     -14070.791655                 XDOT =       -4287.521464
+     YDOT =      -8540.126794  feet/sec       YDOT =       -2650.982867  meter/sec
+     ZDOT =      19026.908104                 ZDOT =        5778.571414
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =         642843.48                 X    =          195938.69
+     Y    =      -21695932.19  feet           Y    =        -6612920.13  meter
+     Z    =       -4915057.31                 Z    =        -1498109.47
+     XDOT =      14540.044100                 XDOT =        4431.805442
+     YDOT =      -3843.877692  feet/sec       YDOT =       -1171.613921  meter/sec
+     ZDOT =      18936.833854                 ZDOT =        5771.946959
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16079.13633900  .00016717  00000-0  10270-3 0  9140
+    2 25544  51.6402 147.1459 0002165 322.8022  37.2980 15.54255232 30976
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16079.13633900   =   yrday.fracday
+    Element set:     914
+    Inclination:       51.6402  deg
+    RA of node:       147.1459  deg
+    Eccentricity:     .0002165     
+    Arg of perigee:   322.8022  deg
+    Mean anomaly:      37.2980  deg
+    Mean motion:   15.54255232  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3097
+    Checksum:              290
+ 
+ 
+    Coasting Arc #16 (Orbit 3112)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/080/03:12:07.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 905198.2
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        5421262.98                 A    =         6788808.27  meter
+     Y    =       -4068072.67  meter          E    =           .0009377
+     Z    =        -303844.84                 I    =           51.88716
+     XDOT =       2631.583556                 Wp   =          133.87040
+     YDOT =       3947.705625  meter/sec      RA   =          141.10041  deg
+     ZDOT =      -6023.000862                 TA   =           49.39261
+                                              MA   =           49.31107
+                                              Ha   =            220.496  n.mi
+                                              Hp   =            214.787
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       17786295.86                 X    =         5467826.19
+     Y    =      -13346695.13  feet           Y    =        -4007188.20  meter
+     Z    =        -996866.27                 Z    =         -277396.35
+     XDOT =       8633.804317                 XDOT =        2616.500559
+     YDOT =      12951.790108  feet/sec       YDOT =        3977.048572  meter/sec
+     ZDOT =     -19760.501516                 ZDOT =       -6010.254618
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       -3039942.10                 X    =         -926574.35
+     Y    =       22033210.27  feet           Y    =         6715722.49  meter
+     Z    =        -881323.29                 Z    =         -268627.34
+     XDOT =     -13758.836016                 XDOT =       -4193.693218
+     YDOT =      -2668.463687  feet/sec       YDOT =        -813.347732  meter/sec
+     ZDOT =     -19705.751870                 ZDOT =       -6006.313170
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16080.16507840  .00016717  00000-0  10270-3 0  9159
+    2 25544  51.6406 142.0164 0002259 330.3119  29.7906 15.54296518 31137
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16080.16507840   =   yrday.fracday
+    Element set:     915
+    Inclination:       51.6406  deg
+    RA of node:       142.0164  deg
+    Eccentricity:     .0002259     
+    Arg of perigee:   330.3119  deg
+    Mean anomaly:      29.7906  deg
+    Mean motion:   15.54296518  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3113
+    Checksum:              290
+ 
+ 
+    Coasting Arc #17 (Orbit 3117)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/080/10:25:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 905198.2
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -4555831.83                 A    =         6778781.92  meter
+     Y    =       -1156263.35  meter          E    =           .0005352
+     Z    =        4881124.17                 I    =           51.86412
+     XDOT =       4121.159383                 Wp   =          112.66696
+     YDOT =      -5999.917524  meter/sec      RA   =          139.62181  deg
+     ZDOT =       2421.102537                 TA   =          313.65342
+                                              MA   =          313.69778
+                                              Ha   =            220.530  n.mi
+                                              Hp   =            214.767
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -14946954.83                 X    =        -4566273.75
+     Y    =       -3793514.91  feet           Y    =        -1207267.37  meter
+     Z    =       16014186.91                 Z    =         4858968.13
+     XDOT =      13520.864116                 XDOT =        4176.185113
+     YDOT =     -19684.768779  feet/sec       YDOT =       -5953.523967  meter/sec
+     ZDOT =       7943.249793                 ZDOT =        2441.256382
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =      -11826762.57                 X    =        -3604797.23
+     Y    =      -10049760.84  feet           Y    =        -3063167.10  meter
+     Z    =       15918115.18                 Z    =         4851841.51
+     XDOT =      20046.193704                 XDOT =        6110.079841
+     YDOT =     -10847.479039  feet/sec       YDOT =       -3306.311611  meter/sec
+     ZDOT =       8031.755480                 ZDOT =        2448.079070
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16080.48655554  .00016717  00000-0  10270-3 0  9161
+    2 25544  51.6434 140.4129 0001881 323.8443  36.2582 15.54317427 31189
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16080.48655554   =   yrday.fracday
+    Element set:     916
+    Inclination:       51.6434  deg
+    RA of node:       140.4129  deg
+    Eccentricity:     .0001881     
+    Arg of perigee:   323.8443  deg
+    Mean anomaly:      36.2582  deg
+    Mean motion:   15.54317427  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3118
+    Checksum:              304
+ 
+ 
+    Coasting Arc #18 (Orbit 3132)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/081/10:25:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 905198.2
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =        3345985.20                 A    =         6776967.38  meter
+     Y    =        2555407.99  meter          E    =           .0013992
+     Z    =       -5322535.31                 I    =           51.88031
+     XDOT =      -5101.100645                 Wp   =           79.15135
+     YDOT =       5692.940560  meter/sec      RA   =          134.63886  deg
+     ZDOT =       -472.025340                 TA   =          186.34649
+                                              MA   =          186.36423
+                                              Ha   =            220.503  n.mi
+                                              Hp   =            214.854
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       10977641.74                 X    =         3343015.68
+     Y    =        8383884.47  feet           Y    =         2592807.59  meter
+     Z    =      -17462386.18                 Z    =        -5306289.10
+     XDOT =     -16735.894506                 XDOT =       -5162.088522
+     YDOT =      18677.626508  feet/sec       YDOT =        5635.555584  meter/sec
+     ZDOT =      -1548.639566                 ZDOT =        -496.954007
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        6459207.81                 X    =         1968766.54
+     Y    =       12309460.66  feet           Y    =         3751923.61  meter
+     Z    =      -17392207.48                 Z    =        -5301144.84
+     XDOT =     -22193.395060                 XDOT =       -6764.546814
+     YDOT =       9296.214344  feet/sec       YDOT =        2833.486132  meter/sec
+     ZDOT =      -1657.852627                 ZDOT =        -505.313481
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16081.45098153  .00016717  00000-0  10270-3 0  9176
+    2 25544  51.6421 135.6051 0001968 330.0377  30.0663 15.54291293 31338
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16081.45098153   =   yrday.fracday
+    Element set:     917
+    Inclination:       51.6421  deg
+    RA of node:       135.6051  deg
+    Eccentricity:     .0001968     
+    Arg of perigee:   330.0377  deg
+    Mean anomaly:      30.0663  deg
+    Mean motion:   15.54291293  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3133
+    Checksum:              288
+ 
+ 
+    Coasting Arc #19 (Orbit 3148)
+    ---------------------------------------
+ 
+    Vector Time (GMT): 2016/082/10:25:00.000
+    Vector Time (MET): N/A
+    Weight (LBS)     : 905198.2
+ 
+              M50 Cartesian                         M50 Keplerian  
+    -----------------------------------       --------------------------------
+     X    =       -2008401.08                 A    =         6777415.85  meter
+     Y    =       -3911261.25  meter          E    =           .0005345
+     Z    =        5156143.37                 I    =           51.90447
+     XDOT =       5661.568836                 Wp   =           33.66743
+     YDOT =      -4941.172929  meter/sec      RA   =          129.65468  deg
+     ZDOT =      -1537.822500                 TA   =           71.12082
+                                              MA   =           71.06286
+                                              Ha   =            220.484  n.mi
+                                              Hp   =            214.614
+ 
+              M50 Cartesian                         J2K Cartesian  
+    -----------------------------------       --------------------------------
+     X    =       -6589242.40                 X    =        -1989561.32
+     Y    =      -12832221.95  feet           Y    =        -3933614.35  meter
+     Z    =       16916480.88                 Z    =         5146433.51
+     XDOT =      18574.700904                 XDOT =        5723.871522
+     YDOT =     -16211.197272  feet/sec       YDOT =       -4877.513395  meter/sec
+     ZDOT =      -5045.349408                 ZDOT =       -1510.168041
+ 
+              TDR Cartesian                         TDR Cartesian  
+    -----------------------------------       --------------------------------
+     X    =        -838965.87                 X    =         -255716.80
+     Y    =      -14449382.01  feet           Y    =        -4404171.64  meter
+     Z    =       16874917.98                 Z    =         5143475.00
+     XDOT =      22568.727482                 XDOT =        6878.948136
+     YDOT =      -7081.006539  feet/sec       YDOT =       -2158.290793  meter/sec
+     ZDOT =      -4924.400728                 ZDOT =       -1500.957342
+  
+  
+    The mean element set is posted at the UTC for which position is
+    just north of the next ascending node relative to the above
+    vector time
+ 
+ 
+    TWO LINE MEAN ELEMENT SET
+  
+    ISS
+    1 25544U 98067A   16082.47968768  .00016717  00000-0  10270-3 0  9188
+    2 25544  51.6422 130.4758 0001979 332.7858  27.3191 15.54361674 31494
+  
+  
+    Satellite: ISS
+    Catalog Number: 25544
+    Epoch time:      16082.47968768   =   yrday.fracday
+    Element set:     918
+    Inclination:       51.6422  deg
+    RA of node:       130.4758  deg
+    Eccentricity:     .0001979     
+    Arg of perigee:   332.7858  deg
+    Mean anomaly:      27.3191  deg
+    Mean motion:   15.54361674  rev/day
+    Decay rate:    1.67170E-04  rev/day^2
+    Epoch rev:            3149
+    Checksum:              346
+ 
+             </PRE>
+           </TD>
+        </TR>
+    </TABLE>
+    
+    <table align="center" border="0" width="600" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" valign="top"><hr size="1" width="600" noshade="noshade" />
+        <font face="Arial,helvetica" size="-2">Curator: <a href="/cgi-bin/comment.cgi?jsc-hsfwebma@mail.nasa.gov">Kim 
+          Dismukes</a> | Responsible NASA Official: <a href="/cgi-bin/comment.cgi?jsc-hsfwebma@mail.nasa.gov">Amiko Kauderer</a> | Updated: 06/08/2009<br />
+        <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></font></td>
+      </tr>
+    </table>
+    </body>
+    </html>
