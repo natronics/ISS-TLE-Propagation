@@ -5,5 +5,3 @@ build: index.md
 
 index.md: index.ipynb
 	jupyter nbconvert --execute --to=markdown --template="nb-markdown.tpl" $^
-
-index.ipynb: data/ISS-Live-Capture.csv
